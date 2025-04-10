@@ -1,5 +1,5 @@
 import React, { ReactNode } from "react";
-import { TextProps, TextStyle, TouchableOpacityProps, ViewStyle, } from "react-native";
+import { TextInput, TextInputProps, TextProps, TextStyle, TouchableOpacityProps, ViewStyle, } from "react-native";
 
 export type ScreenWrapperProps = {
   style?: ViewStyle;
@@ -20,4 +20,18 @@ export interface CustomButtonProps extends TouchableOpacityProps {
   onPress?: () => void;
   loading?: boolean;
   children: React.ReactNode;
+};
+
+export type BackButtonProps = {
+  style?: ViewStyle;
+  iconSize?: number;
+};
+
+export interface InputProps extends TextInputProps {
+  icon?: React.ReactNode;
+  containerStyle?: ViewStyle;
+  inputStyle?: TextStyle;
+  inputRef?: React.RefObject<TextInput>;
+  //   label?: string;
+  //   error?: string;
 }
