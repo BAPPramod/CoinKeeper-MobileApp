@@ -4,12 +4,11 @@ CoinKeeper Mobile App in React Native with Firebase, Google Cloud Vision and Clo
 
 ## Features
 
-- User authentication (login/signup and login with Google)
-- Role-based access control (admin vs regular users)
-- Product management (CRUD operations)
-- Shopping cart functionality
-- Order processing
-- Responsive UI with Bootstrap
+- React Native - TypeScript
+- Expo
+- Firebase
+- Cloudinary
+- Google Cloud Vision
 
 ## Main features
 
@@ -18,7 +17,7 @@ CoinKeeper Mobile App in React Native with Firebase, Google Cloud Vision and Clo
 - Search data
 - Currency Conversion
 - Haptic feedback
-- Statistics for analytics and export as PDF
+- Statistics for analytics and export as a PDF
 - Wallet Management
 - Transactions Management
 - Media Uploads
